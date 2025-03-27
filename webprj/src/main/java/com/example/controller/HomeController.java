@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/spring") // <== This is the base path
+@RequestMapping("/spring") // <== This is the base path ===
 public class HomeController {
 
     @RequestMapping("/home")  // Final URL = /spring-mvc/home
